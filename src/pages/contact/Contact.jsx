@@ -34,7 +34,7 @@ const Contact = () => {
                 key={card.label}
                 className="group bg-white shadow-[0_4px_30px_rgba(0,0,0,0.07)] rounded-3xl p-7 flex gap-5 items-start hover:-translate-y-1.5 transition-all duration-300 border border-transparent hover:border-primary/20"
               >
-                <div className={`${card.iconBg} text-heading-1 w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 text-2xl`}>
+                <div className={`${card.iconBg} text-white w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 text-2xl`}>
                   <Icon icon={card.icon} />
                 </div>
                 <div>
